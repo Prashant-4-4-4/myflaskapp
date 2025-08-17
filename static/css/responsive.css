@@ -1,0 +1,79 @@
+@media screen and (max-width : 950px){
+
+    .container{
+        height: 34vh;
+    }
+    .box{
+        margin: -3vh -14vw;
+        font-size: 14px;
+    }
+    .inbox{
+        margin: 2vh -4vw;
+        height: 2vh;
+    }
+    .small-box{
+        margin: 0vh -4vw;
+        font-size: 18px ;
+    }
+    .form{
+        margin: 7vh 20vw;
+        padding: 0vh 3vw;
+        width: 19vw;
+    }
+    #two{
+        font-size: x-large;
+    }
+    .details{
+        margin-left: 2vw;
+    }
+    #d-1{
+    padding: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 0vh;
+    display: flex;
+    margin: 0vh 13vw;
+    }
+    .mb{
+        width: 16vw;
+        height: 4vh;
+        border-radius: 6px;
+        margin: 7vh auto;
+    }
+    .in-last{
+        height: 45vh;
+    }
+    #r-one{
+        margin-left: 2vw;
+        font-size: 18px;
+    }
+    #r-two{
+        margin-left: 2vw;
+        font-size: 16px;
+    }
+    #r-three{
+        margin-left: 2vw;
+        font-size: 16px;
+    }
+    .row{
+        margin-left: 15vw;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        width: 119px;
+    }
+    .new{
+        margin: 0vh 2vw;
+    }
+    .in-cont{
+        margin: 10vh 0vw;
+        border-radius: 5px;
+        width: 85vw;
+        height: 17vh;
+    }
+    .one-cont{
+        font-size: 16px;
+        margin: -4vh -9vw;
+    }
+}

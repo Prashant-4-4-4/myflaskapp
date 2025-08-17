@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(3,47,60);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav ul li{
+    margin-top: 3vh;
+    
+}
+nav ul li a{
+    color: rgb(182, 171, 171);
+    text-decoration: none;
+    padding: 0px 17px;
+}
+nav ul li a:hover{
+    color:white;
+}
+.above{
+    overflow: auto;
+    background-color: rgb(16,137,141);
+    width: 100%;
+    height: 84vh;
+    min-height: calc(100vh - 10vh - 10vh);
+}
+.container{
+    background-color: rgb(4,97,105);
+    color: white;
+    padding: 6vh 7vw;
+    height: 45vh;
+    border-radius: 10px;
+    margin: 10vh 10vw;
+    
+}
+.box{
+    padding: 5vh 17vw;
+    font-size: 18px;
+}
+.inbox{
+    margin-top: 1vh;
+    padding: 0vh 5vw;
+    font-size: 18px;
+}
+.small-box{
+    padding: 0vh 8vw;
+    font-size: 21px ;
+}
+
+.form{
+    margin: 7vh 28vw;
+    padding: 0px;
+    background-color: rgb(4,97,105);
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px;
+    border: 2px solid #1eacac;
+    height: 5vh;
+    width: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form:hover{
+    font-weight: 600;
+}
+#one{
+    color: white;
+    text-decoration: none;
+}
+.down{
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh;
+    color: white;
+}
+footer{
+    background-color: rgb(2,71,77);
+    height: 10vh;
+    width: 100%;
+}

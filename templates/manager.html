@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %} Calculator|Money Manager{% endblock %}
+
+{% block content %}
+<form action="/manager" method="POST" class="top">
+    <h1 id="two">Fill The Given Details</h1>
+    <div class="upper">
+        <div class="details">
+            <label>Salary/Income (₹): </label>
+            <input id="d-1" type="number" name="income" min="6000" required>
+        </div>
+        <div class="details">
+            <label>Select Mode: </label>
+            <select name="mode" required >
+                <option value="super">Super Saving</option>
+                <option value="saving">Saving</option>
+            </select>
+        </div>
+        <button type="submit" class="mb">Submit</button>
+    </div>
+</form>
+{% endblock %}

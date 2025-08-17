@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} Result|Money Manager{% endblock %}
+
+{% block content %}
+
+<div class="last">
+    <div class="in-last">
+            <h1 id="r-one">{{ mode|capitalize }} Mode Summary</h1>
+            <p id="r-two"><strong>Total Income:</strong> ₹{{ income }}</p>
+
+            <h2 id="r-three">💰 Spending Breakdown:</h2>
+            <ul class="check">
+            <div class="row"><span>Rent:</span><span> ₹{{ result.Rent }}</span></div>
+            <div class="row"><span>Travel:</span><span> ₹{{ result.Travel }}</span></div>
+            <div class="row"><span>Bills:</span><span> ₹{{ result.Bills }}</span></div>
+            <div class="row"><span>Grocery:</span><span> ₹{{ result.Grocery }}</span></div>
+            <div class="row"><span>Hobby:</span><span> ₹{{ result.Hobby }}</span></div>
+            <hr class="new">
+            <div class="row " ><span>Saving:</span><span> ₹{{ result.Saving }}</span></div> 
+            </ul>
+    </div>
+</div>
+
+{% endblock %}
